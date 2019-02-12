@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.ratulbintazul.www.drtazulislam.fragments.Gallery">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mediaRecyclerView"/>
+
+<!--<TextView-->
+    <!--android:id="@+id/galleryComminSoon"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textSize="52sp"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_centerVertical="true"-->
+    <!--android:text="Gallery" />-->
+<!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Coming soon"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textSize="24sp"-->
+    <!--android:layout_below="@+id/galleryComminSoon"/>-->
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <in.championswimmer.libsocialbuttons.buttons.BtnFacebook
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share in Facebook"/>
+    <in.championswimmer.libsocialbuttons.buttons.BtnGoogleplus
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share in Google plus"/>
+    <in.championswimmer.libsocialbuttons.buttons.BtnTwitter
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share in Twitter"/>
+    <in.championswimmer.libsocialbuttons.buttons.BtnLinkedin
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share in Linkdin"/>
+    <in.championswimmer.libsocialbuttons.buttons.BtnTumblr
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share in Tumblr"/>
+</LinearLayout>

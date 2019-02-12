@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "340698540064",
+    "firebase_url": "https://dr-tazul-islam.firebaseio.com",
+    "project_id": "dr-tazul-islam",
+    "storage_bucket": "dr-tazul-islam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340698540064:android:69d0c2ba95014c0b",
+        "android_client_info": {
+          "package_name": "com.ratulbintazul.www.drtazulislam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340698540064-7e58fileasoi4n7vmdk7jk4v9a7hhbp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ratulbintazul.www.drtazulislam",
+            "certificate_hash": "dff0b4f509056454c5b7494eaa0aa17ec7565891"
+          }
+        },
+        {
+          "client_id": "340698540064-okm1khd0siauukvv5rm57j5en0u2io91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOKfd3oVZqg0sYM1Jhcfu8DnEwvBfilMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340698540064-okm1khd0siauukvv5rm57j5en0u2io91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

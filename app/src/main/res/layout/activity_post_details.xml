@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_post_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.ratulbintazul.www.drtazulislam.Activity.PostDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <!--Post image if exist-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="center"
+        android:id="@+id/postDetailsPhoto"
+        android:elevation="7dp"/>
+
+        <!--Love and share Button-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@drawable/input_outline"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1">
+
+            <com.like.LikeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:icon_type="heart"
+                app:icon_size="20dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/postDetailsLoveBtn"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Love"
+                android:id="@+id/postDetailsLove"
+                android:layout_centerVertical="true"
+                android:background="@drawable/input_outline"
+                android:layout_marginLeft="25dp"
+                android:layout_marginStart="25dp"
+                android:paddingLeft="25dp"
+                android:paddingStart="25dp"
+                android:layout_alignLeft="@+id/postDetailsLoveBtn"
+                android:layout_alignStart="@+id/postDetailsLoveBtn"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@drawable/input_outline"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:background="@android:color/transparent"
+                android:id="@+id/postDetailsShareBtn"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+        <!--Post section-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postDetailsTitle"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Title"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/postDetails"
+        android:textSize="18sp"
+        android:lineSpacingExtra="3dp"
+        android:text="Description"/>
+
+        <!--social sharing-->
+
+        <in.championswimmer.libsocialbuttons.buttons.BtnFacebook
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share in Facebook"
+            android:onClick="shareFacebook"/>
+        <in.championswimmer.libsocialbuttons.buttons.BtnGoogleplus
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share in Google plus"
+            android:onClick="shareGooglePlus"/>
+        <in.championswimmer.libsocialbuttons.buttons.BtnTwitter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share in Twitter"
+            android:onClick="shareTwitter"/>
+        <in.championswimmer.libsocialbuttons.buttons.BtnLinkedin
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share in Linkdin"
+            android:onClick="shareLinkdin"/>
+        <in.championswimmer.libsocialbuttons.buttons.BtnTumblr
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share in Tumblr"
+            android:onClick="shareTumblr"/>
+
+    </LinearLayout>
+</ScrollView>
